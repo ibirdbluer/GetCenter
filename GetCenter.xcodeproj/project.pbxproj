@@ -21,6 +21,21 @@
 		3E47F1B818DE557500A1C6A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E47F19A18DE557500A1C6A6 /* UIKit.framework */; };
 		3E47F1C018DE557500A1C6A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E47F1BE18DE557500A1C6A6 /* InfoPlist.strings */; };
 		3E47F1C218DE557500A1C6A6 /* GetCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E47F1C118DE557500A1C6A6 /* GetCenterTests.m */; };
+		3E47F1CC18DE558A00A1C6A6 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E47F1CB18DE558A00A1C6A6 /* SpriteKit.framework */; };
+		3E47F1CF18DE566200A1C6A6 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E47F1CE18DE566200A1C6A6 /* IntroScene.m */; };
+		3E47F1D518DE6E2B00A1C6A6 /* StoneScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E47F1D418DE6E2B00A1C6A6 /* StoneScene.m */; };
+		D7E5F61A19540043007955BF /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E5F61919540043007955BF /* FacebookSDK.framework */; };
+		F638EF8C1906511C00E213D3 /* PlayerVSComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = F638EF8B1906511C00E213D3 /* PlayerVSComputer.m */; };
+		F69F322518FD7EF100ABD17B /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F322418FD7EF100ABD17B /* GameOverScene.m */; };
+		F6A8443619078F9800416E3A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A8443519078F9800416E3A /* FacebookSDK.framework */; };
+		F6FCF10D1919CF91006F8AF3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FCF1051919CF91006F8AF3 /* background.png */; };
+		F6FCF10E1919CF91006F8AF3 /* blueStone.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FCF1061919CF91006F8AF3 /* blueStone.png */; };
+		F6FCF10F1919CF91006F8AF3 /* blueStone2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FCF1071919CF91006F8AF3 /* blueStone2.png */; };
+		F6FCF1101919CF91006F8AF3 /* button_1Player.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FCF1081919CF91006F8AF3 /* button_1Player.png */; };
+		F6FCF1111919CF91006F8AF3 /* button_2Player.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FCF1091919CF91006F8AF3 /* button_2Player.png */; };
+		F6FCF1121919CF91006F8AF3 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FCF10A1919CF91006F8AF3 /* Icon-72.png */; };
+		F6FCF1131919CF91006F8AF3 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FCF10B1919CF91006F8AF3 /* Icon-72@2x.png */; };
+		F6FCF1141919CF91006F8AF3 /* redStone.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FCF10C1919CF91006F8AF3 /* redStone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,25 @@
 		3E47F1BD18DE557500A1C6A6 /* GetCenterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetCenterTests-Info.plist"; sourceTree = "<group>"; };
 		3E47F1BF18DE557500A1C6A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E47F1C118DE557500A1C6A6 /* GetCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetCenterTests.m; sourceTree = "<group>"; };
+		3E47F1CB18DE558A00A1C6A6 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		3E47F1CD18DE566200A1C6A6 /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
+		3E47F1CE18DE566200A1C6A6 /* IntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroScene.m; sourceTree = "<group>"; };
+		3E47F1D318DE6E2B00A1C6A6 /* StoneScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoneScene.h; sourceTree = "<group>"; };
+		3E47F1D418DE6E2B00A1C6A6 /* StoneScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoneScene.m; sourceTree = "<group>"; };
+		D7E5F61919540043007955BF /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		F638EF8A1906511C00E213D3 /* PlayerVSComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerVSComputer.h; sourceTree = "<group>"; };
+		F638EF8B1906511C00E213D3 /* PlayerVSComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerVSComputer.m; sourceTree = "<group>"; };
+		F69F322318FD7EF100ABD17B /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		F69F322418FD7EF100ABD17B /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		F6A8443519078F9800416E3A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		F6FCF1051919CF91006F8AF3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		F6FCF1061919CF91006F8AF3 /* blueStone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueStone.png; sourceTree = "<group>"; };
+		F6FCF1071919CF91006F8AF3 /* blueStone2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueStone2.png; sourceTree = "<group>"; };
+		F6FCF1081919CF91006F8AF3 /* button_1Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_1Player.png; sourceTree = "<group>"; };
+		F6FCF1091919CF91006F8AF3 /* button_2Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_2Player.png; sourceTree = "<group>"; };
+		F6FCF10A1919CF91006F8AF3 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		F6FCF10B1919CF91006F8AF3 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		F6FCF10C1919CF91006F8AF3 /* redStone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redStone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +94,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E47F1CC18DE558A00A1C6A6 /* SpriteKit.framework in Frameworks */,
+				F6A8443619078F9800416E3A /* FacebookSDK.framework in Frameworks */,
 				3E47F19918DE557500A1C6A6 /* CoreGraphics.framework in Frameworks */,
 				3E47F19B18DE557500A1C6A6 /* UIKit.framework in Frameworks */,
 				3E47F19718DE557500A1C6A6 /* Foundation.framework in Frameworks */,
+				D7E5F61A19540043007955BF /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +138,13 @@
 		3E47F19518DE557500A1C6A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F6A8443519078F9800416E3A /* FacebookSDK.framework */,
+				3E47F1CB18DE558A00A1C6A6 /* SpriteKit.framework */,
 				3E47F19618DE557500A1C6A6 /* Foundation.framework */,
 				3E47F19818DE557500A1C6A6 /* CoreGraphics.framework */,
 				3E47F19A18DE557500A1C6A6 /* UIKit.framework */,
 				3E47F1B518DE557500A1C6A6 /* XCTest.framework */,
+				D7E5F61919540043007955BF /* FacebookSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +152,20 @@
 		3E47F19C18DE557500A1C6A6 /* GetCenter */ = {
 			isa = PBXGroup;
 			children = (
+				F6FCF1041919CF91006F8AF3 /* resources */,
 				3E47F1A518DE557500A1C6A6 /* CenterAppDelegate.h */,
 				3E47F1A618DE557500A1C6A6 /* CenterAppDelegate.m */,
 				3E47F1A818DE557500A1C6A6 /* Main.storyboard */,
 				3E47F1AB18DE557500A1C6A6 /* CenterViewController.h */,
 				3E47F1AC18DE557500A1C6A6 /* CenterViewController.m */,
+				3E47F1CD18DE566200A1C6A6 /* IntroScene.h */,
+				3E47F1CE18DE566200A1C6A6 /* IntroScene.m */,
+				3E47F1D318DE6E2B00A1C6A6 /* StoneScene.h */,
+				3E47F1D418DE6E2B00A1C6A6 /* StoneScene.m */,
+				F638EF8A1906511C00E213D3 /* PlayerVSComputer.h */,
+				F638EF8B1906511C00E213D3 /* PlayerVSComputer.m */,
+				F69F322318FD7EF100ABD17B /* GameOverScene.h */,
+				F69F322418FD7EF100ABD17B /* GameOverScene.m */,
 				3E47F1AE18DE557500A1C6A6 /* Images.xcassets */,
 				3E47F19D18DE557500A1C6A6 /* Supporting Files */,
 			);
@@ -150,6 +199,21 @@
 				3E47F1BE18DE557500A1C6A6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6FCF1041919CF91006F8AF3 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6FCF1051919CF91006F8AF3 /* background.png */,
+				F6FCF1061919CF91006F8AF3 /* blueStone.png */,
+				F6FCF1071919CF91006F8AF3 /* blueStone2.png */,
+				F6FCF1081919CF91006F8AF3 /* button_1Player.png */,
+				F6FCF1091919CF91006F8AF3 /* button_2Player.png */,
+				F6FCF10A1919CF91006F8AF3 /* Icon-72.png */,
+				F6FCF10B1919CF91006F8AF3 /* Icon-72@2x.png */,
+				F6FCF10C1919CF91006F8AF3 /* redStone.png */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +294,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E47F1AF18DE557500A1C6A6 /* Images.xcassets in Resources */,
+				F6FCF1101919CF91006F8AF3 /* button_1Player.png in Resources */,
+				F6FCF1131919CF91006F8AF3 /* Icon-72@2x.png in Resources */,
+				F6FCF1121919CF91006F8AF3 /* Icon-72.png in Resources */,
+				F6FCF1141919CF91006F8AF3 /* redStone.png in Resources */,
+				F6FCF10D1919CF91006F8AF3 /* background.png in Resources */,
+				F6FCF10F1919CF91006F8AF3 /* blueStone2.png in Resources */,
 				3E47F1A118DE557500A1C6A6 /* InfoPlist.strings in Resources */,
+				F6FCF10E1919CF91006F8AF3 /* blueStone.png in Resources */,
 				3E47F1AA18DE557500A1C6A6 /* Main.storyboard in Resources */,
+				F6FCF1111919CF91006F8AF3 /* button_2Player.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +322,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E47F1D518DE6E2B00A1C6A6 /* StoneScene.m in Sources */,
 				3E47F1A318DE557500A1C6A6 /* main.m in Sources */,
+				F638EF8C1906511C00E213D3 /* PlayerVSComputer.m in Sources */,
+				3E47F1CF18DE566200A1C6A6 /* IntroScene.m in Sources */,
 				3E47F1A718DE557500A1C6A6 /* CenterAppDelegate.m in Sources */,
+				F69F322518FD7EF100ABD17B /* GameOverScene.m in Sources */,
 				3E47F1AD18DE557500A1C6A6 /* CenterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +455,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ibirdbluer/Documents/FacebookSDK,
+					/Users/dev/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GetCenter/GetCenter-Prefix.pch";
 				INFOPLIST_FILE = "GetCenter/GetCenter-Info.plist";
@@ -392,6 +473,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ibirdbluer/Documents/FacebookSDK,
+					/Users/dev/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GetCenter/GetCenter-Prefix.pch";
 				INFOPLIST_FILE = "GetCenter/GetCenter-Info.plist";
@@ -459,6 +545,7 @@
 				3E47F1C718DE557500A1C6A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E47F1C818DE557500A1C6A6 /* Build configuration list for PBXNativeTarget "GetCenterTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +554,7 @@
 				3E47F1CA18DE557500A1C6A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
