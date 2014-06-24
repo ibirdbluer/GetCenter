@@ -11,4 +11,5 @@ in 1 player
   3. repeat stop 1 & 2, for 8 times, it will end automatically
 
 in 2 players
+
   just touch behind the circles!
