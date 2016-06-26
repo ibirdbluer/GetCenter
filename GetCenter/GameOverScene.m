@@ -10,7 +10,7 @@
 #import "IntroScene.h"
 #import "StoneScene.h"
 #import "PlayerVSComputer.h"
-#import <FacebookSDK/FacebookSDK.h>
+//#import <FacebookSDK/FacebookSDK.h>
 static NSString *score;
 static BOOL isPlayerVSAI;
 
@@ -106,83 +106,83 @@ static BOOL isPlayerVSAI;
 
 - (IBAction)shareClicked:(id)sender withDescription:(NSString *)description
 {
-    FBShareDialogParams *params = [[FBShareDialogParams alloc] init];
-    params.link = [NSURL URLWithString:@"https://www.facebook.com/uyqian"];
-    params.picture = [NSURL URLWithString:@"https://raw.github.com/fbsamples/ios-3.x-howtos/master/Images/iossdk_logo.png"];
-    params.name = @"GetCenter";
-    params.caption = @"A strategy game inspired by curling";
-    params.description = description;
-    [FBDialogs presentShareDialogWithParams:params clientState:nil handler:^(FBAppCall *call, NSDictionary *results, NSError *error) {
-        if(error) {
-            NSLog(@"Error: %@", error.description);
-        } else {
-            NSLog(@"Success!");
-        }
-    }];
-    
-    // If the Facebook app is installed and we can present the share dialog
-    if ([FBDialogs canPresentShareDialogWithParams:params]) {
-        
-        // Present share dialog
-        [FBDialogs presentShareDialogWithLink:params.link
-                                         name:params.name
-                                      caption:params.caption
-                                  description:params.description
-                                      picture:params.picture
-                                  clientState:nil
-                                      handler:^(FBAppCall *call, NSDictionary *results, NSError *error) {
-                                          if(error) {
-                                              // An error occurred, we need to handle the error
-                                              // See: https://developers.facebook.com/docs/ios/errors
-                                              NSLog(@"Error publishing story: %@", error.description);
-                                          } else {
-                                              // Success
-                                              NSLog(@"result %@", results);
-                                          }
-                                      }];
-        
-        // If the Facebook app is NOT installed and we can't present the share dialog
-    } else {
-        // FALLBACK: publish just a link using the Feed dialog
-        
-        // Put together the dialog parameters
-        NSMutableDictionary *params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
-                                       @"GetCenter", @"name",
-                                       @"A strategy game inspired by curling", @"caption",
-                                       description, @"description",
-                                       @"https://www.facebook.com/uyqian", @"link",
-                                       @"http://i.imgur.com/g3Qc1HN.png", @"picture",
-                                       nil];
-        
-        // Show the feed dialog
-        [FBWebDialogs presentFeedDialogModallyWithSession:nil
-                                               parameters:params
-                                                  handler:^(FBWebDialogResult result, NSURL *resultURL, NSError *error) {
-                                                      if (error) {
-                                                          // An error occurred, we need to handle the error
-                                                          // See: https://developers.facebook.com/docs/ios/errors
-                                                          NSLog(@"Error publishing story: %@", error.description);
-                                                      } else {
-                                                          if (result == FBWebDialogResultDialogNotCompleted) {
-                                                              // User canceled.
-                                                              NSLog(@"User cancelled.");
-                                                          } else {
-                                                              // Handle the publish feed callback
-                                                              NSDictionary *urlParams = [self parseURLParams:[resultURL query]];
-                                                              
-                                                              if (![urlParams valueForKey:@"post_id"]) {
-                                                                  // User canceled.
-                                                                  NSLog(@"User cancelled.");
-                                                                  
-                                                              } else {
-                                                                  // User clicked the Share button
-                                                                  NSString *result = [NSString stringWithFormat: @"Posted story, id: %@", [urlParams valueForKey:@"post_id"]];
-                                                                  NSLog(@"result %@", result);
-                                                              }
-                                                          }
-                                                      }
-                                                  }];
-    }
+//    FBShareDialogParams *params = [[FBShareDialogParams alloc] init];
+//    params.link = [NSURL URLWithString:@"https://www.facebook.com/uyqian"];
+//    params.picture = [NSURL URLWithString:@"https://raw.github.com/fbsamples/ios-3.x-howtos/master/Images/iossdk_logo.png"];
+//    params.name = @"GetCenter";
+//    params.caption = @"A strategy game inspired by curling";
+//    params.description = description;
+//    [FBDialogs presentShareDialogWithParams:params clientState:nil handler:^(FBAppCall *call, NSDictionary *results, NSError *error) {
+//        if(error) {
+//            NSLog(@"Error: %@", error.description);
+//        } else {
+//            NSLog(@"Success!");
+//        }
+//    }];
+//    
+//    // If the Facebook app is installed and we can present the share dialog
+//    if ([FBDialogs canPresentShareDialogWithParams:params]) {
+//        
+//        // Present share dialog
+//        [FBDialogs presentShareDialogWithLink:params.link
+//                                         name:params.name
+//                                      caption:params.caption
+//                                  description:params.description
+//                                      picture:params.picture
+//                                  clientState:nil
+//                                      handler:^(FBAppCall *call, NSDictionary *results, NSError *error) {
+//                                          if(error) {
+//                                              // An error occurred, we need to handle the error
+//                                              // See: https://developers.facebook.com/docs/ios/errors
+//                                              NSLog(@"Error publishing story: %@", error.description);
+//                                          } else {
+//                                              // Success
+//                                              NSLog(@"result %@", results);
+//                                          }
+//                                      }];
+//        
+//        // If the Facebook app is NOT installed and we can't present the share dialog
+//    } else {
+//        // FALLBACK: publish just a link using the Feed dialog
+//        
+//        // Put together the dialog parameters
+//        NSMutableDictionary *params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+//                                       @"GetCenter", @"name",
+//                                       @"A strategy game inspired by curling", @"caption",
+//                                       description, @"description",
+//                                       @"https://www.facebook.com/uyqian", @"link",
+//                                       @"http://i.imgur.com/g3Qc1HN.png", @"picture",
+//                                       nil];
+//        
+//        // Show the feed dialog
+//        [FBWebDialogs presentFeedDialogModallyWithSession:nil
+//                                               parameters:params
+//                                                  handler:^(FBWebDialogResult result, NSURL *resultURL, NSError *error) {
+//                                                      if (error) {
+//                                                          // An error occurred, we need to handle the error
+//                                                          // See: https://developers.facebook.com/docs/ios/errors
+//                                                          NSLog(@"Error publishing story: %@", error.description);
+//                                                      } else {
+//                                                          if (result == FBWebDialogResultDialogNotCompleted) {
+//                                                              // User canceled.
+//                                                              NSLog(@"User cancelled.");
+//                                                          } else {
+//                                                              // Handle the publish feed callback
+//                                                              NSDictionary *urlParams = [self parseURLParams:[resultURL query]];
+//                                                              
+//                                                              if (![urlParams valueForKey:@"post_id"]) {
+//                                                                  // User canceled.
+//                                                                  NSLog(@"User cancelled.");
+//                                                                  
+//                                                              } else {
+//                                                                  // User clicked the Share button
+//                                                                  NSString *result = [NSString stringWithFormat: @"Posted story, id: %@", [urlParams valueForKey:@"post_id"]];
+//                                                                  NSLog(@"result %@", result);
+//                                                              }
+//                                                          }
+//                                                      }
+//                                                  }];
+//    }
 
 }
 

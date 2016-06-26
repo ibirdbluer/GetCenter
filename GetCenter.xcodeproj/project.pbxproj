@@ -24,10 +24,8 @@
 		3E47F1CC18DE558A00A1C6A6 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E47F1CB18DE558A00A1C6A6 /* SpriteKit.framework */; };
 		3E47F1CF18DE566200A1C6A6 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E47F1CE18DE566200A1C6A6 /* IntroScene.m */; };
 		3E47F1D518DE6E2B00A1C6A6 /* StoneScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E47F1D418DE6E2B00A1C6A6 /* StoneScene.m */; };
-		D7E5F61A19540043007955BF /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E5F61919540043007955BF /* FacebookSDK.framework */; };
 		F638EF8C1906511C00E213D3 /* PlayerVSComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = F638EF8B1906511C00E213D3 /* PlayerVSComputer.m */; };
 		F69F322518FD7EF100ABD17B /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F69F322418FD7EF100ABD17B /* GameOverScene.m */; };
-		F6A8443619078F9800416E3A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A8443519078F9800416E3A /* FacebookSDK.framework */; };
 		F6FCF10D1919CF91006F8AF3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FCF1051919CF91006F8AF3 /* background.png */; };
 		F6FCF10E1919CF91006F8AF3 /* blueStone.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FCF1061919CF91006F8AF3 /* blueStone.png */; };
 		F6FCF10F1919CF91006F8AF3 /* blueStone2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FCF1071919CF91006F8AF3 /* blueStone2.png */; };
@@ -95,11 +93,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E47F1CC18DE558A00A1C6A6 /* SpriteKit.framework in Frameworks */,
-				F6A8443619078F9800416E3A /* FacebookSDK.framework in Frameworks */,
 				3E47F19918DE557500A1C6A6 /* CoreGraphics.framework in Frameworks */,
 				3E47F19B18DE557500A1C6A6 /* UIKit.framework in Frameworks */,
 				3E47F19718DE557500A1C6A6 /* Foundation.framework in Frameworks */,
-				D7E5F61A19540043007955BF /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
